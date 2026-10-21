@@ -41,7 +41,7 @@ notebooks = [
 
 [tool.ruff]
 line-length = 100
-[tool.ruff.linit]
+[tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
