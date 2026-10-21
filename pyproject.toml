@@ -38,3 +38,11 @@ notebooks = [
     "matplotlib>=3.11.2",
     "seaborn>=0.13.2",
 ]
+
+[tool.ruff]
+line-length = 100
+[tool.ruff.linit]
+select = ["E", "F", "I", "B", "UP"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=fraud_detection --cov-report=term-missing"
